@@ -148,9 +148,11 @@ Nous avons prévu le fichier geipanDataTraitees.json pour que l'import se fasse 
 Voici un tutoriel rapide sur Studio3T : 
 
 Ouvrez Studio3T, connectez vous sur votre mongo local que nous avons ouvert tout à l'heure (localhost:27017), et créer une nouvelle base de donnée, nommez là "geipan" !
+
 ![](https://puu.sh/FxfZH/c12fece5e7.png)
 
 Ensuite, faites un clic droit sur votre base fraichement créé, faites ici une nouvelle collection que vous allez également nommé "geipan" 
+
 ![](https://puu.sh/Fxg1i/46a96ea6f8.png)
 
 C'est fait ? Alors on est en bonne voie. 
@@ -158,9 +160,11 @@ C'est fait ? Alors on est en bonne voie.
 Ensuite, double cliquez sur votre collection encore vide, et dans la barre du haut, cliquez sur "Import"
 
 Selectionnez dans la fenêtre "JSON"
+
 ![](https://puu.sh/Fxg3j/1ed53a41df.png)
 
 Enfin, cliquez sur le + juste ici
+
 ![](https://puu.sh/Fxg4P/59543aec06.png)
 
 Et sélectionnez "geipanDataTraitees.json", puis vous pouvez faire next jusqu'au bout. Vous avez les données, great ! 
@@ -198,7 +202,43 @@ Vous aurez alors la description du cas, son taux d'étrangeté, sa classificatio
 
 Nous avons réalisé plusieurs graphiques afin d'investiguer si oui, ou non, nous avons été visités par des extra-terrestres ! Nous ne sommes pas experts, mais nous avons essayé de faire un constat simple avec des informations simples afin d'être le plus cohérent possible !
 
+#### Premier graphique : Nombre de témoignages par lieu #### 
 
+Ce graphique nous permet de voir le nombre de témoignage par lieux, passez la souris dessus pour voir le montant de témoignages ! 
+
+![](https://puu.sh/FxtoJ/7c4db85c32.png)
+
+#### Second graphique : Nombre de témoignages par lieu #### 
+
+Ce graphique permet de compter le nombre de témoignages par catégorie, pratique pour identifier la proportion des cas les plus inexpliqués.
+
+![](https://puu.sh/FxtrT/1d7519b5fc.png)
+
+#### Troisième graphique : Nombre de témoignages par lieu #### 
+
+Ce graphique nous montre les années de dépôt des témoignagnes pour les cas de type D
+
+![](https://puu.sh/FxttJ/1b4fdc6e5e.png)
+
+#### Quatrième graphique : Endroit d'apparition des phénomènes #### 
+
+Ce graphique nous montre le nombre de cas de par l'endroit ou le phénomène a été observé pour les cas de type D
+
+![](https://puu.sh/FxtuX/1e5cca2bfa.png)
+
+
+#### Cinquième graphique : Profession des personnes ayant déposé leur témoignages #### 
+
+Ce graphique nous montre la proportion des professions exercé par les personnes ayant témoignés. Pourquoi ? A vous de vous faire vos avis !
+
+![](https://puu.sh/Fxtxa/ca322b40aa.png)
+
+
+#### Conclusion #### 
+
+Vous trouverez à la fin de l'application une conclusion des observations. Mais la meilleure conclusion, c'est celle que l'on se fait soi même ! N'hésitez pas à lire la description des cas dans le tableau.
+
+![](https://puu.sh/FxtAw/d9d088bacb.png)
 
 
 ## Auteurs ##
