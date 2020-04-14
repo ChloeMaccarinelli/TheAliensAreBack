@@ -1,0 +1,99 @@
+<div>
+    <h1>Mais alors ? Les aliens existent ou pas ?!</h1>
+
+
+    <div class="row ml-5">
+    <div class="col">
+        <div class="row">
+            <h1>
+                Vérifions d'abord le nombre de témoignage par endroit ..
+            </h1>
+            <p>(Mettez votre souris sur une barre pour voir le lieu et le nombre exact)</p>
+        </div>
+        <div class="row graphContainer">
+            <ngx-charts-bar-vertical *ngIf="finishedLoading"
+                    [view]="view"
+                    [scheme]="colorScheme"
+                    [results]="arrayLieuCount"
+                    [gradient]="gradient"
+                    [xAxis]="showXAxis"
+                    [yAxis]="showYAxis"
+                    [legend]="showLegend"
+                    [showXAxisLabel]="showXAxisLabel"
+                    [showYAxisLabel]="showYAxisLabel"
+                    [xAxisLabel]="xAxisLabel"
+                    [yAxisLabel]="yAxisLabel">
+            </ngx-charts-bar-vertical>
+        </div>
+
+
+            <h1>
+                La répartition des types de classification
+            </h1>
+            <p>(Mettez votre souris sur une barre pour voir le type de classification et le nombre exact)</p>
+            <p>A = Phénomène pleinement identifié</p>
+            <p>B = Phénomène probablement identifié</p>
+            <p>C = Cas inexploitable</p>
+            <p>D = Phénomène non identifié</p>
+
+
+        <div class="row graphContainer">
+            <ngx-charts-pie-chart *ngIf="finishedLoading"
+                    [view]="view"
+                    [scheme]="colorScheme"
+                    [results]="arrayTypeCount"
+                    [legend]="showLegend"
+                    [explodeSlices]="explodeSlices"
+                    [labels]="showLabels"
+                    [doughnut]="doughnut"
+                    [gradient]="gradient">
+            </ngx-charts-pie-chart>
+        </div>
+
+        <h1 class = "alerte">
+            Intéressons nous uniquement aux cas de type D !
+        </h1>
+
+        <h1>
+            Années des témoignages pour les types D
+        </h1>
+        <p>(Mettez votre souris sur une barre pour voir le nombre de témoignages)</p>
+
+
+        <div class="row graphContainer">
+            <ngx-charts-pie-chart *ngIf="finishedLoading"
+                                  [view]="view"
+                                  [scheme]="colorScheme"
+                                  [results]="arrayAnneeCount"
+                                  [legend]="showLegend"
+                                  [explodeSlices]="explodeSlices"
+                                  [labels]="showLabels"
+                                  [doughnut]="doughnut"
+                                  [gradient]="gradient">
+            </ngx-charts-pie-chart>
+        </div>
+
+        <h1>
+            Lieux d'observation des phénomènes pour les types D
+        </h1>
+        <p>(Mettez votre souris sur une barre pour voir le nombre de témoignages)</p>
+
+
+        <div class="row graphContainer">
+            <ngx-charts-pie-chart *ngIf="finishedLoading"
+                                  [view]="view"
+                                  [scheme]="colorScheme"
+                                  [results]="arrayObservationLieuCount"
+                                  [legend]="showLegend"
+                                  [explodeSlices]="explodeSlices"
+                                  [labels]="showLabels"
+                                  [doughnut]="doughnut"
+                                  [gradient]="gradient">
+            </ngx-charts-pie-chart>
+        </div>
+
+
+        </div>
+    </div>
+</div>
+

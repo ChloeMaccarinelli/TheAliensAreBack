@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    min-width: 300px;
+    display: inline-block;
+}
+
+p {
+    text-align: center;
+}
+
+.graphContainer {
+    margin-bottom: 100px;
+}
+
+.alerte {
+    color : red;
+}
+
+.row {
+    width : 100%;
+}

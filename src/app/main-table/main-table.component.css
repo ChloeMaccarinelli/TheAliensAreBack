@@ -1,0 +1,60 @@
+table {
+    width: 100%;
+    margin: auto;
+}
+
+tr.detail-row {
+    height: 0;
+}
+
+tr.element-row:not(.expanded-row):hover {
+    background: whitesmoke;
+    cursor: pointer;
+}
+
+tr.element-row:not(.expanded-row):active {
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+.element-row td {
+    border-bottom-width: 0;
+}
+
+.element-detail {
+    overflow: hidden;
+}
+
+.detail-row {
+    background-color: #f4f4f4;
+}
+
+.motCle
+{
+    width : 100%;
+    margin: auto;
+    background-color: white;
+    border-radius : 5px 5px 0 0 ;
+}
+
+.selectInput {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.separator {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 1px;
+    width: 100%;
+    background-color: #c8c8c8;
+}
+
+.titreCas {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+p {
+    text-align: center;
+}
