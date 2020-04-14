@@ -3,7 +3,7 @@
 ## Pour commencer ##
 
 LISEZ-CECI S'IL VOUS PLAIT ! Merci, si vous êtes là c'est que vous lisez. Merci de nous contacter si vous avez n'importe quel problème
-sur l'installation de notre projet. Nous sommes conscient que l'installation est fastidieuse mais ça nous tient vraiment à coeur que vous voyez le fruit de nos travaux car nous pensons que ça vaut le détour !
+sur l'installation de notre projet. Nous sommes conscients que l'installation est fastidieuse mais ça nous tient vraiment à coeur que vous voyez le fruit de nos travaux car nous pensons que ça vaut le détour !
 
 En cas de problème, contactez nous sur
 > arnaud.fernandez1@gmail.com
